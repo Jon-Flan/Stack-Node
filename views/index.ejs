@@ -1,0 +1,19 @@
+<%- include ("../partials/header") %>
+
+    <h1>Stack Data Structre</h1>
+    <h3>In JavaScript and NodeJS</h3>
+    <form>
+        <input type="text" id="element" name="element">
+        <button type="submit" value="Add" id='addItem' formaction="/stack" formmethod="POST">Add</button>
+        <button type="submit" value="Show Stack" id='print' formaction="/stackPrint" formmethod="POST">Print Stack</button>
+        <button type="submit" value="Last Item" id='last' formaction="/stackLast" formmethod="POST">Last Item</button>
+        <button type="submit" value="Remove Item" id='remove'formaction="/stackRemove" formmethod="POST">Remove Item</button>
+        <button type="submit" value="Delete Stack" id='delete' formaction="/stackDelete" formmethod="POST">Delete Stack</button>
+    </form>
+    
+    <div id="output">
+			<h4> <%= results %></h4>	
+    </div>
+    
+
+<%- include ("../partials/footer") %> 

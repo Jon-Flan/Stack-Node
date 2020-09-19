@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: dimgray;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    background-color: lightblue;  
+    top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#element{
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+
+#output {
+    position: relative;
+    background-color: floralwhite;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    top: 120px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
